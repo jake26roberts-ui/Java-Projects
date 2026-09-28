@@ -1,0 +1,64 @@
+import java.util.Scanner;
+public class RobertsJacobAssignment2 {
+public static void main(String[] args) {
+		//creating scanner
+		Scanner input = new Scanner(System.in);
+		//formating of the UI
+		System.out.print("User Information:\n");
+		System.out.println("------------\n");
+		
+		//Section Gathering the Data
+		System.out.print("Enter your name: ");
+		String name = input.nextLine();
+		
+		System.out.print("Enter your weight in pounds: ");
+		double weightInPounds = input.nextDouble();
+		
+		System.out.print("Enter your height in feet : ");
+		double heightInFeet = input.nextDouble();
+		
+		System.out.print("Enter your height in inches: ");
+		double heightInInches = input.nextDouble();
+		
+		System.out.println("\n");
+		
+		//This line is making the calculations for total height
+		double height = (heightInFeet * 12) + heightInInches;
+		
+		//The following are all of my print statements with the gathered data.
+		System.out.println("-----------------------------");
+		System.out.println("Body Mass Index Calculator");
+		System.out.println("\n");
+		
+		System.out.println("Name: " + name);
+		System.out.println("Weight: " + weightInPounds);
+		System.out.println("Height: " + height);
+		System.out.println("\n");
+		System.out.println("-----------------------------");
+		System.out.println("\n");
+		
+		//The start of the table
+		System.out.println("   Weight         BMI\n");
+		
+		System.out.println("   " + (weightInPounds - 15) + "        " + String.format("%.2f", (703 * ((weightInPounds - 15) / (height * height)))));
+		System.out.println("   " + (weightInPounds - 10) + "        " + String.format("%.2f", (703 * ((weightInPounds - 10) / (height * height)))));
+		System.out.println("   " + (weightInPounds - 5) + "        " + String.format("%.2f", (703 * ((weightInPounds - 5) / (height * height)))));
+		System.out.println("   " + (weightInPounds) + "        " + String.format("%.2f", (703 * ((weightInPounds) / (height * height)))) + "  (Current Weight)");
+		System.out.println("   " + (weightInPounds + 5) + "        " + String.format("%.2f", (703 * ((weightInPounds + 5) / (height * height)))));
+		System.out.println("   " + (weightInPounds + 10) + "        " + String.format("%.2f", (703 * ((weightInPounds + 10) / (height * height)))));
+		System.out.println("   " + (weightInPounds + 15) + "        " + String.format("%.2f", (703 * ((weightInPounds + 15) / (height * height)))));
+
+		
+		//BMI values from the Department of Health
+		System.out.println("\n-----------------------\n");
+		System.out.println("Underweight: less than 18.5");
+		System.out.println("Normal:     18.5 to 24.9");
+		System.out.println("Overweight: 25.0 to 29.9");
+		System.out.println("Obesity: 30.0 or higher");
+		
+		
+		//closing the scanner
+		input.close(); 
+	}
+}
+
