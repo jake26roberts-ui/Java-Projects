@@ -1,29 +1,5 @@
 import java.util.Scanner;
 public class RobertsJacobAssignment4 {
-
-	/*
-	 * Name: Jacob Roberts
-	* Class: CS1150 (T/Thu)
-	* Due: Sept 24, 2025
-	* Description: Assignment #4
-	* Write a program that simulates a simple Powerball lottery game. The program will first obtain several
-	Powerball values from the player to generate the player’s lottery ticket, second the program randomly
-	generates a Powerball lottery ticket, and finally to simulate the game, the program compares the
-	player’s ticket to the randomly generated ticket. See the output section below showing example runs.
-	The Powerball game details are:
-	Simple Powerball:
-	• The player (user) enters values that are used to create a “player” lottery ticket:
-		o 2 letters between A and Z
-		o 1 Powerball number between 1 and 10
-	• The code generates the following random values to create a “generated” lottery ticket:
-		o 2 letters between A and Z
-		o 1 Powerball number between 1 and 10
-	• The player ticket is compared to the randomly generated ticket to determine if player won:
-		o Jackpot
-		o $100.00
-		o $40.00
-		o $20.00
-	 */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		
