@@ -1,29 +1,5 @@
 import java.util.Scanner;
 public class RobertsJacobAssignment3 {
-
-	/*
-	 * Name: Jacob Roberts
-	* Class: CS1150 (T/Thu)
-	* Due: Sept 17, 2025
-	* Description: Assignment #3
-	* Create a "very" simple beach snack bar program that allows the user to select a snack and a drink. The
-program reports what snacks were ordered, the cost, any reductions, taxes, and the total cost. The
-program must handle invalid selections as described in specification #6 below. See the output section
-below for example runs with valid and invalid selections.
-Assume the following for this snack bar program:
-• The program will process only 1 customer.
-• Only one snack from the menu can be ordered.
-• The snack bar is limited to the 3 types of snacks listed in the table below.
-• The prices are fixed as stated in the table:
-
-Snack With Small Drink With Large Drink
-Sandwich / Chip / Drink $15.50 $17.50
-Sandwich / Brownie / Drink $14.00 $16.00
-Drink Only $5.75 $7.75
-
-• College students get a 10% reduction and military get a 15% reduction off snack cost.
-• There is a 7.5% charge for taxes (compute after any reduction on total cost)
-	 */
 	public static void main(String[] args) {
 		
 		//Discount and Tax Variables
