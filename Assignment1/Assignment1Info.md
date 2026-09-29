@@ -18,3 +18,22 @@ Fahrenheit               Celsius
 90                  32.22222222222222  
 100                 37.77777777777778  
 ```
+## Notes:
+* DO NOT enter the above Celsius values directly into the print statements in your code.
+ * Placing manually computed results directly into your code in double quotes is called
+hard coding. For example, DO NOT write code with print statements like this:
+Don’t do this
+```text
+             System.out.print ("0 -17.77777777777778");
+```
+* Instead, use the formula and have the computer compute the Celsius values.
+* One way to do this is to place the formula for the computation directly inside
+the parentheses of the System.out.println statements.
+* As an example of placing a computation inside System.out.println, place this
+line of code in your program and run the program to see how it works:
+```text
+             System.out.println("The result is " + (5 * 5 + 2));
+
+     You will see displayed in the console window: The result is 27
+     Use this experiment to now compute Celsius for 0 degrees, then 10, etc.
+```
