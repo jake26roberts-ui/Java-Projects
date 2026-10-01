@@ -1,17 +1,6 @@
 import java.util.Scanner;
 
 public class RobertsJacobAssignment5 {
-	/* 
-	*Name: Jacob Roberts
-	* Class: CS1150 (T/Thu)
-	* Due: Oct 1, 2026
-	* Description: Assignment #5
-	* In this assignment you will write a simple while loop. Assume the manager of several small coffee shops
-	* wants some statistics regarding the daily sales in all the shops. Write a program that prompts the
-	* manager for an unspecified number of daily sales amounts for each coffee store. The number -1 will be
-	* used as a sentinel value to indicate the end of the sales amounts. Process the list of sales amounts to
-	* determine the statistics as specified in the specifications below
-	*/
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 				
@@ -42,8 +31,6 @@ public class RobertsJacobAssignment5 {
 			else {
 				moreThan2000++;
 			}//	end else statement
-			
-			
 			
 			// find smallest and largest sales
 			if (numSales ==1) {
