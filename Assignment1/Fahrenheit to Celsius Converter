@@ -1,4 +1,4 @@
-public class RobertsJacobAssignment1 {
+public class FahrenheitToCelsius {
 	public static void main(String[] args) {
 		//Title of the table that I am going to make
 		System.out.println("Fahrenheit to Celsius Conversion Table");
