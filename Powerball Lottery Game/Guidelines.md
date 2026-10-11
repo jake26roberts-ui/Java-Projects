@@ -1,4 +1,4 @@
-# Assignment Description
+# Powerball Lottery
 *Write a program that simulates a simple Powerball lottery game. The program will first obtain several
 Powerball values from the player to generate the player’s lottery ticket, second the program randomly
 generates a Powerball lottery ticket, and finally to simulate the game, the program compares the
