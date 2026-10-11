@@ -1,4 +1,4 @@
-# Fahrenheit to Celsius Converter Assignment Details:
+# Fahrenheit to Celsius Converter:
 * Convert every 10 degrees from 0 to 100 degrees using the formula C = (F – 32) X 5/9
 * Create a table of temperatures
   *   Place the formula for the conversion directly into the print statements.
