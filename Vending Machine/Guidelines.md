@@ -1,4 +1,4 @@
-#  Assignment 6: Simulating a vending machine
+#  Simulating a vending machine
 To simulate the vending machine, the code must do 2 things:  
 ## Task 1: Implement the customer mode
   * Create a loop that waits for customer input and continues running until the vending machine is shut down
