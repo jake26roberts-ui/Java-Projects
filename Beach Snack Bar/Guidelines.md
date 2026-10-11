@@ -1,4 +1,4 @@
-# Assignment Description - Beach Snack Bar  
+# Beach Snack Bar  
 Create a "very" simple beach snack bar program that allows the user to select a snack and a drink. The
 program reports what snacks were ordered, the cost, any reductions, taxes, and the total cost. The
 program must handle invalid selections as described in specification #6 below. See the output section
