@@ -1,4 +1,4 @@
-# Assignment 5 Description - Sales Statistics
+# Description - Sales Statistics
 In this assignment you will write a simple while loop. Assume the manager of several small coffee shops
 wants some statistics regarding the daily sales in all the shops. Write a program that prompts the
 manager for an unspecified number of daily sales amounts for each coffee store. The number -1 will be
