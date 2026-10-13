@@ -1,6 +1,6 @@
+# Reflection:
 https://github.com/user-attachments/assets/2e6f6e17-45c9-41c3-af88-d414ed0dabbd
 
-# Reflection:
 ## What I Learned:
 This was one of my first experiences with using Java, so I learned a lot. I later edited it for user input once I learned how a Scanner works. 
 The rest of what I learned is as follows:
