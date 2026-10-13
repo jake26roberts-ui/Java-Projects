@@ -1,5 +1,3 @@
-# Code Running
-
 https://github.com/user-attachments/assets/2e6f6e17-45c9-41c3-af88-d414ed0dabbd
 
 ## What I Learned:
