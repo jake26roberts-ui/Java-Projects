@@ -1,10 +1,7 @@
-
+# Reflection:
 
 https://github.com/user-attachments/assets/da67aad0-f1c6-440a-816d-796bb0d60543
 
-
-
-# Reflection:
 ## Explanation:
 This program took a person's height in feet, converted it into inches, then added the inches input to that number. It then used the equation for calculating a person's BMI:
 ```text
