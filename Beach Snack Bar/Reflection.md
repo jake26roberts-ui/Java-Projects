@@ -18,11 +18,13 @@ https://github.com/user-attachments/assets/d50ce5ce-df2b-4a0f-ade2-67cb6ff8851c
  ### What I learned:
 * How to utilize the ```equalsIgnoreCase()``` fuction
 * How to apply a discount when a specifc input is made
-
+* How to re-prompt the user for their input when they mis-spell something.
   
  ### What I would change:
- * I would create fault tollerance and allow for additional input if there is a mis-input or a typo.
  * Allow it to process another transaction without needing to restart the entire program.
+ * Clear the screen after every transaction, only leaving the receipt, and prompt the user on if they want to do another.
+  * Then clear it again before giving the menu again.
 
  ### Challenges:
  * Formatting it like a recipt.
+ * Adding mis-input options to prompt the user to re-enter their selection.
