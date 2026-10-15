@@ -1,4 +1,4 @@
-# Java Volume Calculator
+# Volume Calculator
 
 ## Overview
 
