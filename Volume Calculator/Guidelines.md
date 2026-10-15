@@ -40,11 +40,7 @@ public static int getShapeOption(Scanner userInput)
 public static double cubeVolume(double side)
 public static double sphereVolume(double radius)
 public static double cylinderVolume(double radius, double height)
-public static double rectangularPrismVolume(
-    double length,
-    double width,
-    double height
-)
+public static double rectangularPrismVolume(double length, double width, double height)
 ```
 
 The main loop gets a menu choice, processes the selected shape, and asks for another choice until the user selects the exit option. The returned menu choice is stored in a variable each time.
@@ -57,7 +53,7 @@ while (shapeOption != EXIT) {
     // Read the required dimensions and store them in variables.
     // Store the calculated volume in a variable before displaying it.
 
-    shapeOption = getShapeOption(userInput);
+    shapeOption = getShapeOption(input);
 }
 ```
 
@@ -68,15 +64,6 @@ while (shapeOption != EXIT) {
 - The `main` method handles user interaction and displays results.
 - Store method return values in variables before using them in output statements.
 - Keep methods focused on one responsibility and add comments explaining their purpose.
-
-## Build and Run
-
-After saving the complete source code as `VolumeCalculator.java`, compile and run it from a terminal with a Java Development Kit (JDK) installed:
-
-```bash
-javac VolumeCalculator.java
-java VolumeCalculator
-```
 
 ## Concepts Practiced
 
