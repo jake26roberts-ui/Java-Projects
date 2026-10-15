@@ -1,19 +1,6 @@
 import java.util.Scanner;
 public class VolumeCalculator {
 
-	/* 
-	*Name: Jacob Roberts
-	* Class: CS1150 (T/Thu)
-	* Due: Oct 15, 2026
-	* Description: Assignment #7
-	* Write a program that allows the user to compute the volume of 4 different types of shapes - a cube,
-	* sphere, cylinder, or rectangular prism using these formulas:
-	* Cube volume = s^3 where s = length of a side
-	* Sphere volume = 4 π r^3 where r = radius^3
-	* Cylinder volume = π r^2 h where r = radius, h = height
-	* Rectangular prism = lwh where l = length, w = width, h = height
-	*/	
-	
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		
@@ -125,8 +112,4 @@ public class VolumeCalculator {
 		double volume = l*w*h;
 		return volume;
 	}// end rectangularPrism
-	
-	
-	
-
 }
