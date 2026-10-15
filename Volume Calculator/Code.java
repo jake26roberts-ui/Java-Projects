@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class RobertsJacobAssignment7 {
+public class VolumeCalculator {
 
 	/* 
 	*Name: Jacob Roberts
