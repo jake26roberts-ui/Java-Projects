@@ -29,7 +29,7 @@ A Java console application that calculates the volume of common three-dimensiona
 | 2 | Sphere |
 | 3 | Cylinder |
 | 4 | Rectangular prism |
-| 5 | Exit |
+| 0 | Exit |
 
 ## Program Structure
 
@@ -48,7 +48,7 @@ The main loop gets a menu choice, processes the selected shape, and asks for ano
 ```java
 int shapeOption = getShapeOption(userInput);
 
-while (shapeOption != EXIT) {
+while (shapeOption != 0) {
     // Use a switch statement to process the selected shape.
     // Read the required dimensions and store them in variables.
     // Store the calculated volume in a variable before displaying it.
