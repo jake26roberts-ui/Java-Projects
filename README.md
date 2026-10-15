@@ -1,3 +1,3 @@
 # Java Projects
-Assignments Completed for Computer Science 1150 Class where we utilize Java to complete tasks in assignments.
-All code is ran through the Eclipse IDE multiple times to find faults. 
+Assignments Completed for my Java class as well as prompts given to me by ChatGPT to solidify my understanding and do some extra practice.
+All code is ran through the Eclipse IDE. 
