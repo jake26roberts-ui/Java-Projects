@@ -7,7 +7,7 @@ A simple guessing game where the player starts with a balance and wagers are app
 - Each player begins with a balance of $100.
 
 ## Round Flow
-- Each round the computer randomly selects an integer between 1 and 100 (inclusive).
+- Each round the computer randomly selects an integer between 1 and 10 (inclusive).
 - The player is prompted: "Please enter your guess now:" and must enter a whole number.
 - The program displays the computer's number each round (e.g., "Computer's Guess: 42").
 - After the result is shown, the current balance is printed.
@@ -35,7 +35,7 @@ A simple guessing game where the player starts with a balance and wagers are app
 - If the player inputs a non-integer token, the input is consumed and treated as invalid.
 - If the entered integer is outside 1–100, the program prints:
   - "Invalid input."
-  - "Please enter a whole number from 1 to 100."
+  - "Please enter a whole number from 1 to 10."
 - The user entry method returns `-1` for non-integer input (or an invalid sentinel).
 
 ## Implementation Details (methods)
@@ -52,8 +52,8 @@ A simple guessing game where the player starts with a balance and wagers are app
 ## Example Session (sample output)
 - Welcome text / rules
 - Prompt: "Please enter your guess now: "
-- User enters 50
-- Computer prints: "Computer's Guess: 77"
+- User enters 5
+- Computer prints: "Computer's Guess: 7"
 - "Tough luck!"
 - "Your current balance: 90"
 - ...repeat until balance <= 0
