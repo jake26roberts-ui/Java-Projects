@@ -11,14 +11,14 @@ public class GuessingGame {
 		
 		System.out.println("Each player will begin the game with $100.");
 		
-		System.out.print("Each round, the computer will choose a number between 1 and 100. \n");
+		System.out.print("Each round, the computer will choose a number between 1 and 10. \n");
 
 		
 		while (balance > 0) {
 			int userGuess = userEntry(input);
 			if (userGuess >= 1 && userGuess <= 100) {
 			
-				int computerEntry = (int)((Math.random() * 100) + 1);
+				int computerEntry = (int)((Math.random() * 10) + 1);
 			
 				System.out.println("Computer's Guess: " + computerEntry);
 				if (userGuess == computerEntry) {
