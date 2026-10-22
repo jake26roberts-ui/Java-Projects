@@ -1,26 +1,29 @@
-# Reflection:
+# Reflection
 
 https://github.com/user-attachments/assets/da67aad0-f1c6-440a-816d-796bb0d60543
 
-## Explanation:
-This program took a person's height in feet, converted it into inches, then added the inches input to that number. It then used the equation for calculating a person's BMI:
-```text
-BMI = 703 * (weight / height^2)
-```
-It then prints the values 5 below to 5 above, including the person's BMI, which is indicated by the text:
-"Current Weight"
+## Running Demo
+[Watch the BMI Calculator demo](<../artifacts/java-demos/videos/bmi.mp4>) — this was recorded from the program running.
 
-Below that is the national standards for BMI to use for comparison.
+## What the Program Does
+The program asks for a name, weight, and height. It changes the height from feet and inches into total inches, then uses the BMI formula to print BMI values for the current weight and for weights 5, 10, and 15 pounds above and below it. It also prints BMI ranges for comparison.
 
-## What I learned:
-* How to convert values and combine them (With the height measurements in feet and inches)
-* How to include mathmatic operations in print statements while formatting the table.
+## What I Learned
+* I practiced reading text and numbers with a `Scanner`. I used `nextLine()` for the name and `nextDouble()` for the measurements.
+* I learned to convert feet to inches before using the height in the BMI formula.
+* I used `String.format` to show the BMI numbers with two decimal places. That makes the table easier to read.
+* I got practice printing a group of results in a table-like layout.
 
-## Challenges:
-* Writing very long calculations in individual print statements
-* Condensing my code
-  
-## Next Time improvements:
-* Make it entirely in a loop as to be able to continuously make new comparisons instead of running it again.
-* Create a fault-tolerance, where an incorrect input returns the user to the same point, allowing them to attempt the input again until an acceptable input has been entered.
-* Because I recieve the name in this program, I could also require a password, allowing for that data to come back to the screen if the user inputs the correct name and password. 
+## Challenges
+There are several long calculations in the print statements. It was easy to lose track of parentheses, and I can see how a method could help me avoid repeating the same formula.
+
+I also had to get the height conversion right. The formula needs inches, so I multiply the feet by 12 and add the remaining inches. If that part is wrong, all of the BMI results will be wrong too.
+
+## What I Would Improve
+* Put the BMI calculation in a method so I do not have to repeat the formula in each row.
+* Add checks so letters or invalid measurements do not stop the program.
+* Use a loop to print the different weights instead of writing each row separately.
+* Make the columns line up more neatly and allow the user to calculate BMI for another person without restarting.
+
+## Final Takeaway
+This project helped me connect user input, unit conversion, math, and formatted output. I am still learning how to organize repeated calculations, and this program showed me that methods and loops could make it easier to read. I am happy that it prints the current BMI along with some nearby values for comparison.

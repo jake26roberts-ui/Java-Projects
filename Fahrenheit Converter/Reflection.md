@@ -1,24 +1,27 @@
-# Reflection:
+# Reflection
+
 https://github.com/user-attachments/assets/2e6f6e17-45c9-41c3-af88-d414ed0dabbd
 
-## What I Learned:
-This was one of my first experiences with using Java, so I learned a lot. I later edited it for user input once I learned how a Scanner works. 
-The rest of what I learned is as follows:
-* How to use System.out.println.
-* How to format a simple table
-* How to do a simple for loop.
+## Running Demo
+[Watch the Fahrenheit Converter demo](<../artifacts/java-demos/videos/fahrenheit.mp4>) — this was recorded from the program running.
 
-## Challenges:
-* Using a for loop was difficult, as it is different from the coding language I studied before java (Python) and has much more that goes into it.
-* Using the ```printf()``` statement for the first time was also a struggle, since I hadn't learned it fully yet.
+## What the Program Does
+The program asks for a starting Fahrenheit temperature and prints a table, going up by 10 degrees until it reaches 100 degrees above the starting value. It converts each row to Celsius.
 
-## What I changed later:
-* Added a User input
-* Re-Formatted the table and condensed the number of decimal places the calculation printed.
-* Used a Printf statement to format the values, using %10d to allow for integer multiplication.
-* Made the code run up to 100 + the starting value to allow for any value.
+## What I Learned
+* I learned how to use `Scanner` to get a number from the user.
+* I practiced using a `for` loop to repeat the conversion instead of writing a print statement for every temperature.
+* I learned to use `printf` to make the two columns easier to read and to limit the Celsius result to four decimal places.
+* I got more practice with the Fahrenheit-to-Celsius formula and with using `double` values for calculations with decimals.
 
-## What I would change in the future:
-* Run the code both ways to display up to 100 degrees in both directions from the initial input, bolding the user's value.
-* Include a section for incorrect inputs to allow the code to continue to function normally instead of without errors.
-* Allow for multiple inputs to run continuously until an option to terminate is selected.
+## Challenges
+The Java `for` loop looked different from the loops I had used in Python, so it took me a while to get used to putting the starting value, stopping condition, and update together. I also had to experiment with the `printf` format so the columns would look more like a table.
+
+## What I Would Improve
+* Check the input so a letter does not stop the program with an error.
+* Let the user create another table without restarting.
+* Let the user choose how far apart the temperatures should be.
+* Close the scanner after the program is finished.
+
+## Final Takeaway
+This was one of my first Java projects, and it helped me practice getting input and using a loop. I am still learning how formatting works, but I am glad I was able to make a table that updates based on the starting number instead of using a fixed list of values.
